@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 
-import CategoryMenu from "../../components/category-menu/category-menu";
+import Directory from "../../components/directory/directory";
 
 const Home = () => {
   return (
     <div>
+      <Directory />
       <Outlet />
-      <CategoryMenu />
     </div>
   );
 };
